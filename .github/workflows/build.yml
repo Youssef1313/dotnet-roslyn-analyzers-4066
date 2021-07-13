@@ -1,6 +1,4 @@
-on:
-  push:
-  pull_request:
+on: [push, pull_request]
 jobs:
   ci:
     runs-on: ubuntu-20.04
